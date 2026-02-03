@@ -8,17 +8,17 @@ const siteConfig = {
   personal: {
     name: 'Anuj Bhargava',
     title: 'Economics Undergrad',
-    image: getAsset('images/profile.png'), // Customize or replace with your profile image
+    image: getAsset('images/photo.jpeg'), // Customize or replace with your profile image
     description:
-      'Write a short bio here describing your background and focus. Keep it to 2–4 sentences.\n' +
+      'An undergrad in Economics with expertise in the field of Data Science, marketing and AI ML. \n' +
       '\n' +
-      'Mention your institution or company, areas of interest, and what you teach or build.\n' +
+      'Skills: data visualization, data interpretation, excel(VBA, Macros, Forecasting), video editing. \n' +
       '\n' +
-      'Summarize your education or certifications briefly and highlight your practical work.\n' +
+      'certifications: python for data science by IBM (progressing). \n' +
       '\n' +
-      'Optional: Add notable books, workshops, or training you deliver.',
-    tagline: 'Add a concise personal tagline here.',
-    location: 'Your City, Country',
+      '',
+    tagline: 'Exploring Economics, with blend of AIML and Data Science.',
+    location: 'Bangalore, India',
   },
 
   seo: {
@@ -51,9 +51,9 @@ const siteConfig = {
 
   education: [
     {
-      institution: 'Your Institution',
-      degree: 'Your Degree',
-      year: 'YYYY–YYYY',
+      institution: 'Christ University',
+      degree: 'BSc in Economics with Data Science',
+      year: '2025–2028',
       image: getAsset('images/education/placeholder.png'),
       description: ['Brief description of your focus or thesis'],
     },
@@ -107,10 +107,10 @@ const siteConfig = {
   // ✅ Projects section updated
   projects: [
     {
-      title: 'Project Title 1',
+      title: 'Predicting inflation using current prices',
       cardImage: getAsset('images/project/placeholder.png'),
-      description: 'Short description of your project and what it does...',
-      Githublink: 'https://github.com/your-username/your-project',
+      description: 'This project used CPI for predicting inflation using tools like excel with research',
+      Githublink: 'https://github.com/anujj-ds/solid-engine.git',
     },
     {
       title: 'Project Title 2',
@@ -148,7 +148,7 @@ const siteConfig = {
   ],
 
   contact: {
-    email: 'your.email@example.com',
+    email: 'bhargavabanuj@gmail.com',
     linkedin: 'https://www.linkedin.com/in/your-linkedin/',
     github: 'https://github.com/your-username',
     googleScholar: 'https://scholar.google.com/citations?user=YOURID',
