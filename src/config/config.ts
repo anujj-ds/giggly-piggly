@@ -8,7 +8,7 @@ const siteConfig = {
   personal: {
     name: 'Anuj Bhargava',
     title: 'Economics Undergrad',
-    image: getAsset('images/photo.jpeg'), // Customize or replace with your profile image
+    image: getAsset('images/photo_jpeg.jpeg'), // Customize or replace with your profile image
     description:
       'An undergrad in Economics with expertise in the field of Data Science, marketing and AI ML. \n' +
       '\n' +
